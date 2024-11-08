@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  background-image: url(Prison-yard.jpg);
+  background-size: cover; /* Change to cover to fill the entire area */
+  background-repeat: no-repeat; /* Prevent background from repeating */
+}
+
+/* Container for image and info */
+.content-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: 20px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Style for the image */
+img {
+    max-width: 300px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+/* Might remove*/
+.info {
+    max-width: 600px; 
+}
+
+.deadline {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /*Might remove or change*/
+  .deadline-format {
+    margin: 10px; 
+  }
+
+    /*Might remove or change*/
+  .deadline-format {
+    flex-grow: 1;
+    margin: 10px;
+  }
+
+
+/* Unnecessary might remove unless I do something with it - also changed width from 100% to 80% because it works better*/
+  .escapes {
+    white-space: n; /* changed from nowrap */
+    width: 80%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
